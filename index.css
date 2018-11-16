@@ -1,0 +1,14 @@
+.navbar {
+  background-color: #d6d191;
+  box-shadow: 1px 0px 5px grey;
+  display: flex;
+}
+/*
+.menu {
+  background-color: #d6d191;
+  box-shadow: 0px 1px 5px grey;
+  display: flex;
+  flex-direction: column;
+  margin-right: 80%;
+}
+*/
