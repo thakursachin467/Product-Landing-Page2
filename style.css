@@ -1,10 +1,10 @@
 body, html {
-  background-color: #f7f4c8;
+  background-color: #e4ea27; /*#f7f4c8;*/
   margin: 0px;
 }
 
 .navbaritems {
-  color: #f7f4c8;
+  color: #27619e /* #f7f4c8*/ ;
   text-align: center;
   font-family: sans-serif;
   font-size: 1em;
@@ -12,7 +12,7 @@ body, html {
 }
 
 #home {
-  background-color: #96ceb4;
+  background-color: #d6d191 /* #96ceb4*/ ;
 
 }
 
@@ -22,8 +22,8 @@ body, html {
 }
 
 #nieuws {
-  background-color: #96ceb4;
-
+  background-color: #d6d191 /* #96ceb4 */;
+  border-right: 1px solid #27619e;
 }
 
 #login {
@@ -31,26 +31,19 @@ body, html {
   margin-left: auto;
 
 }
-/*
-.menuitems {
-  color: white;
-  text-align: center;
+
+.sidebaritems {
+  color: #27619e /* #f7f4c8 */ ;
   font-family: sans-serif;
-  font-size: 2em;
-  padding: 10px;
+  font-size: 1em;
+  padding: 15px;
+  text-align: center;
+  border-top: 1px solid #7a7750;
+  border-bottom: 1px solid #7a7750;
 }
 
-#thema1 {
-  background-color: #b6d2d8;
-  margin-top: 40px;
-}
-
-#thema2 {
-  background-color: #e2a541;
-  margin-top: 40px;
-}
-
-#thema3 {
-  background-color: #7f8ea5;
-  margin-top: 40px;
+/*
+#w2 {
+  border-top: 1px solid #7a7750;
+  border-bottom: 1px solid #7a7750;
 } */
