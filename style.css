@@ -1,10 +1,10 @@
 body, html {
-  background-color: #e4ea27; /*#f7f4c8;*/
+  background-color:  /*#e4ea27;*/ #f7f4c8;
   margin: 0px;
 }
 
 .navbaritems {
-  color: #27619e /* #f7f4c8*/ ;
+  color: /* #27619e*/ #f7f4c8 ;
   text-align: center;
   font-family: sans-serif;
   font-size: 1em;
@@ -12,7 +12,7 @@ body, html {
 }
 
 #home {
-  background-color: #d6d191 /* #96ceb4*/ ;
+  background-color: /* #d6d191 */#96ceb4 ;
 
 }
 
@@ -22,7 +22,7 @@ body, html {
 }
 
 #nieuws {
-  background-color: #d6d191 /* #96ceb4 */;
+  background-color: /*#d6d191*/  #96ceb4 ;
   border-right: 1px solid #27619e;
 }
 
@@ -32,14 +32,26 @@ body, html {
 
 }
 
-.sidebaritems {
-  color: #27619e /* #f7f4c8 */ ;
-  font-family: sans-serif;
-  font-size: 1em;
-  padding: 15px;
-  text-align: center;
-  border-top: 1px solid #7a7750;
-  border-bottom: 1px solid #7a7750;
+.sidebar > img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.sidebaritems-horizontal {
+  grid-column: span 2 / auto;
+}
+
+.sidebaritems-vertical {
+  grid-row: span 2 / auto;
+}
+
+.sidebaritems-big {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.sidebaritems-small {
 }
 
 /*

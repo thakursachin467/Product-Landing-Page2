@@ -9,20 +9,16 @@
 
 .mainpage {
   display: grid;
-  grid-template-columns: 1fr 8fr;
+  grid-template-columns: 1fr;
   grid-template-rows: 1fr;
+  padding: 50px;
 }
 
 .sidebar {
-  display: flex;
-  flex-direction: column;
-  background-color: #9a9e19 /* #b7b379*/ ;
-
-}
-
-.sortbar {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  border-bottom: 2px solid #bcba9a
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: 150px;
+  background-color: /*#9a9e19*/  #b7b379 ;
+  grid-auto-flow: dense;
+  padding: 20px;
 }
