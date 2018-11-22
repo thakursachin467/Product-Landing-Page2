@@ -22,3 +22,18 @@
   grid-auto-flow: dense;
   padding: 20px;
 }
+
+.footer {
+  padding: 10px;
+  background-color: #514f37;
+  color: #fcf9db;
+  height: 8.1em;
+  display: flex;
+  font-size: 12pt;
+}
+
+
+
+a {
+  color: #fcf9db;
+}
