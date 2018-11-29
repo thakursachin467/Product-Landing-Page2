@@ -3,25 +3,32 @@ body, html {
   margin: 0px;
 }
 
-.navbaritems {
-  color: /* #f7f4c8*/ #fffcce ;
+#navbarelement > button {
+  color: #fffcce ;
   text-align: center;
   font-family: sans-serif;
   font-size: 1em;
   padding: 15px;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+  cursor: pointer;
+  border: none;
+  transition: .3s;
 }
 
 #home {
-  background-color: /* #d6d191 */#79a892 ;
+  background-color:#79a892 ;
 }
 
 #overmezelf {
-  background-color: /*#ff6f69*/ #db5f59;
+  background-color: #db5f59;
 
 }
 
 #nieuws {
-  background-color: /*#96ceb4*/  #79a892 ;
+  background-color:  #79a892 ;
 }
 
 #login {
@@ -35,6 +42,8 @@ body, html {
   height: 100%;
   object-fit: fill;
   border: solid 1.5px black;
+  cursor: pointer;
+  transition: .3s;
 }
 
 .sidebaritems-horizontal {
@@ -53,9 +62,14 @@ body, html {
 .sidebaritems-small {
 }
 
+#sidebarcontainer > img:hover {
+  opacity: .3;
+}
 
-/*
-#w2 {
-  border-top: 1px solid #7a7750;
-  border-bottom: 1px solid #7a7750;
-} */
+#navbarelement > .navbaritems:hover {
+  background-color: #587c6b;
+}
+
+#navbarelement > .navbaritems1:hover {
+  background-color: #9b423e;
+}
