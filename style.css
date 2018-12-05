@@ -15,7 +15,7 @@ body, html {
   user-select: none; /* Standard */
   cursor: pointer;
   border: none;
-  transition: .3s;
+  transition: .5s;
 }
 
 #home {
@@ -37,7 +37,7 @@ body, html {
 
 }
 
-.sidebar > img {
+.sidebar > div > img {
   width: 100%;
   height: 100%;
   object-fit: fill;
@@ -48,28 +48,36 @@ body, html {
 
 .sidebaritems-horizontal {
   grid-column: span 2 / auto;
+  position: relative;
 }
 
 .sidebaritems-vertical {
   grid-row: span 2 / auto;
+  position: relative;
 }
 
 .sidebaritems-big {
   grid-column: span 2;
   grid-row: span 2;
+  position: relative;
 }
 
 .sidebaritems-small {
+  position: relative;
 }
 
-#sidebarcontainer > img:hover {
-  opacity: .3;
-}
 
-#navbarelement > .navbaritems:hover {
-  background-color: #587c6b;
-}
-
-#navbarelement > .navbaritems1:hover {
-  background-color: #9b423e;
+.imgtext {
+  position: absolute;
+  bottom: 33%;
+  left: 17.5%;
+  visibility: hidden;
+  background-color: #2f343d;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #b7b379;
+  font-size: 20pt;
+  text-align: center;
+  margin: .5em;
+  cursor: pointer;
 }
