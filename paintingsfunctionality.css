@@ -1,0 +1,11 @@
+#navbarelement > a > .navbaritems:hover {
+  background-color: #587c6b;
+}
+
+#navbarelement > a > .navbaritems1:hover {
+  background-color: #9b423e;
+}
+
+#alogin {
+  margin-left: auto;
+}
