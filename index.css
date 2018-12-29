@@ -10,9 +10,15 @@
 .mainpage {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: 2fr;
   padding: 50px;
 }
+
+.introduction {
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
 
 .sidebar {
   display: grid;
@@ -30,11 +36,36 @@
   padding: 10px;
   background-color: #514f37;
   color: #fcf9db;
-  height: 9em;
+  height: 5.5em;
   display: flex;
-  font-size: 12pt;
+  flex-direction: column;
+  padding-top: 80px;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 13pt;
+  overflow: hidden;
 }
 
+#horizontal-line {
+  width: 500px;
+  height: 1px;
+}
+
+#copyrightdiv {
+  background-color: #28271b;
+  flex-basis: auto;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+#copyright {
+
+}
+
+#contactfooterdiv {
+  text-align: center;
+}
 
 a {
   text-decoration: none;
